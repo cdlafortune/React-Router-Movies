@@ -29,8 +29,6 @@ const App = () => {
 
   return (
     <Router>
-      {/* <Link to="/">Movie List</Link>
-      <Link to="/movies">Movies</Link> */}
 
       <SavedList list={savedList} />
       <Route exact path="/">
